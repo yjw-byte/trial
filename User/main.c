@@ -21,7 +21,7 @@ int main(void)
 	{
 		GPIO_ResetBits(GPIOC, GPIO_Pin_13);
 		Delay_ms(500);
-		GPIO_SetBits(GPIOC, GPIO_Pin_13);
+		GPIO_SetBits(GPIOC, GPIO_Pin_13);//LED off
 		Delay_ms(500);//500ms
 		
 //		GPIO_WriteBit(GPIOA, GPIO_Pin_0, Bit_RESET);
